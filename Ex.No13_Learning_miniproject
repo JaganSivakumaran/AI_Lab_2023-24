@@ -1,7 +1,7 @@
 # Ex.No: 13 Learning – Use Supervised Learning  
 ### DATE: 24/10/24                                                                           
 ### REGISTER NUMBER : 212221040061
-### AIM: 
+### AIM:
 To write a program to analyze potential security threats in a simulated dataset by identifying anomalies using the Isolation Forest algorithm.
 ###  Algorithm:
 1.Import necessary libraries and generate a sample dataset with security-related fields.
