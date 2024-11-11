@@ -89,7 +89,6 @@ print(report)
 
 # Visualize Results
 fig, axs = plt.subplots(2, 1, figsize=(10, 10))
-
 # Plot Anomaly Scores
 axs[0].bar(df.index, df['Anomaly Scores'], color='blue')
 axs[0].set_title('Anomaly Scores')
