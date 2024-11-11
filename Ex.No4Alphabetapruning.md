@@ -14,7 +14,6 @@ Write a Alpha beta pruning algorithm to find the optimal value of MAX Player fro
 9.  Stop the program. 
 
 ### Program:
-
 # Initial values of Alpha and Beta
 MAX, MIN = 1000, -1000
 # Returns optimal value for current player
@@ -68,8 +67,6 @@ print("The optimal value is :", minimax(0, 0, True, values, MIN, MAX))
 
 ### Output:
 ![Screenshot (30)](https://github.com/Vikhram-S/AI_Lab_2023-24/assets/146576573/64b8a03b-17a7-474c-a291-d718a5b90a54)
-
-
 
 
 
