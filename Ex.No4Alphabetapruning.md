@@ -4,6 +4,8 @@
 ### AIM: 
 Write a Alpha beta pruning algorithm to find the optimal value of MAX Player from the given graph.
 ### Steps:
+
+
 1. Start the program
 2. Initially  assign MAX and MIN value as 1000 and -1000.3.  Define the minimax function  using alpha beta pruning
 4.  If maximum depth is reached then return the score value of leaf node. [depth taken as 3]
