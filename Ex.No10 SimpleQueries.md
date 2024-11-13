@@ -56,10 +56,15 @@ Convert the facts in predicate form to clauses and then prove by resolution: “
 ### Program:
 
 likes(steve,X):-
+
  easycourse(X).
+ 
 hard(sciencecourse).
+
 easycourse(X):-
+
  course(X,dept(havefun)).
+ 
 course(bk301,dept(havefun)).
 
 ### Output:
@@ -72,20 +77,35 @@ Convert to Clause form and prove west is criminal by using Prolog.<br>
 ### Program:
 
 criminal(X):-
+
  american(X),
+ 
  weapon(Y),
+ 
  hostile(Z),
+ 
  sells(X,Y,Z).
+ 
 weapon(Y):-
+
  missile(Y).
+ 
 hostile(Z):-
+
  enemy(Z,X).
+ 
 sells(west,Y,nano):-
+
  missile(Y),
+ 
  owns(nano,Y).
+ 
 missile(m).
+
 owns(nano,m).
+
 enemy(nano,america).
+
 american(west). 
 
 
