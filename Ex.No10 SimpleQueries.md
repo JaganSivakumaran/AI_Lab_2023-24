@@ -23,14 +23,23 @@ Construct the FOL representation for the following sentences <br>
 ### Program:
 
 likes(john,X):-
+
  food(X).
+ 
 eats(bill,X):-
+
  eats(sue,X).
+ 
 eats(Y,X):-
+
  food(X).
+ 
 eats(bill,peanuts).
+
 food(apple).
+
 food(chicken).
+
 food(peanuts).
 
 ### Output:
